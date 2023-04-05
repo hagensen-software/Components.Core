@@ -24,15 +24,15 @@ File: MyModalDialog.razor.cs:
 
 <Modal @ref="modal">
     <Header>
-        // Insert your title and othe header content here
+        @*Insert your title and othe header content here*@
         <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close" onclick="@(() => Close())"></button>
     </Header>
     <Body>
-        // Insert your boby content here
+        @*Insert your boby content here*@
     </Body>
     <Footer>
         <button class="btn btn-secondary" onclick="@(() => Close())">Close</button>
-        <button class="btn btn-primary" onclick="@(() => Ok())">Ok</button> // ... or other actions to perform
+        <button class="btn btn-primary" onclick="@(() => Ok())">Ok</button> @*... or other actions to perform*@
     </Footer>
 </Modal>
 ```
