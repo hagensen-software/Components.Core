@@ -1,0 +1,5 @@
+﻿@using System.Drawing
+
+<div @ref="TextElement" class="@Class" tabindex=0 contenteditable onblur=@(async () => await OnBlur()) role="textbox" aria-multiline="true" aria-labelledby="nodeText">
+    @Text
+</div>
